@@ -1,0 +1,19 @@
+.switch {
+	width: 42px;
+	padding: 1px;
+	border-radius: 3px;
+	border: 1px solid #bbb;
+}
+
+.switch > div {
+	will-change: transform;
+	height: 22px;
+	width: 22px;
+	border-radius: 2px;
+	border: 1px solid #bbb;
+	transition: transform 160ms ease-out, background 160ms ease-out;
+}
+
+.switch-on > div {
+	transform: translateX(18px);
+}
